@@ -20,7 +20,7 @@ function validasaque() {
     } else {
         contaInput.style.border = '1px red solid';
         document.querySelector('.error-message').style.display = 'block'
-        console.log('sem saldo')
+        console.log('Sem saldo')
     }
 }
 
