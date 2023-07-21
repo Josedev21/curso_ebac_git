@@ -1,0 +1,23 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jota Bank</h1>
+        <h2>Saque</h2>
+        <form id="form-valided">
+            <input type="number" id="valor-conta" placeholder="Valor Na Conta"/>
+            <p class="error-message">Seu saldo é insuficiente!</p>
+            <input type="number" id="valor-saque" placeholder="Valor Do Saque"/>
+            <button type="submit" id="btn-retirar">Retirar</button>
+        </form>
+        <p class="sucesso-mensage"></p>
+    </div>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
