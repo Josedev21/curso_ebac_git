@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Bolsa Familia</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -19,30 +22,35 @@
                 <h2>Cadastro</h2>
                 <div class="form-campo">
                     <label for="nome">Nome Completo</label>
-                    <input type="text" id="nome">
+                    <input type="text" id="nome" name="nome">
                 </div>
                 <div class="form-campo">
                     <label for="email">Email</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" name="email">
                 </div>
                 <div class="form-campo">
                     <label for="telefone">Telefone</label>
-                    <input type="tel" id="telefone">
+                    <input type="tel" id="telefone" name="telefone">
                 </div>
                 <div class="form-campo">
                     <label for="CPF">CPF</label>
-                    <input type="number" id="CPF">
+                    <input type="text" id="CPF" name="CPF">
                 </div>
                 <div class="form-campo">
                     <label for="endereço-completo">Endereço Completo</label>
-                    <input type="text" id="endereço-completo">
+                    <input type="text" id="endereço-completo" name="endereçoCompleto">
                 </div>
                 <div class="form-campo">
                     <label for="Cep">Cep</label>
-                    <input type="number" id="Cep">
+                    <input type="text" id="Cep" name="CEP">
                 </div>
                 <button type="submit">Cadastrar</button>
             </form>
         </div>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <script src="./js/jquery.mask.min.js"></script>
+        <script src="./js/jquery.validate.min.js"></script>
+        <script src="./js/messages_pt_BR.js"></script>
+        <script src="./js/main.js"></script>
 </body>
 </html>
