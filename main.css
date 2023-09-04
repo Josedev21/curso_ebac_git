@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Cormorant Garamond', serif;
 
 }
 
@@ -24,6 +24,9 @@ header img {
 }
 
 h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
     font-size: 45px;
     font-weight: bold;
 }
@@ -55,6 +58,7 @@ form button {
 }
 
 .menu > li {
+    font-size: 20px;
     float: left;
     list-style: none;
     padding: 16px;
@@ -64,6 +68,8 @@ form button {
 }
 
 .submenu {
+    z-index: 100;
+    font-size: 20px;
     display: none;
     position: absolute;
     border: 3px solid #723172;
@@ -93,7 +99,34 @@ form button {
     font-weight: bold;
 }
 
-/*#carrousel-imagens img {
-    width: 400px;
-    height: 650px;
+#carrousel-imagens img {
+    height: 580px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.venda img {
+    max-width: 100%;
+}
+
+.Venda {
+    margin-bottom: 20px;
+}
+
+
+.Lançamento img .descricao {
+    display: flex;
+}
+
+
+section h2 {
+    padding: 16px;
+    font-size: 24px;
 }
