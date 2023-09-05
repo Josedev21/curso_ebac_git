@@ -117,16 +117,18 @@ body {
 }
 
 .Venda {
-    margin-bottom: 20px;
-}
-
-
-.Lançamento img .descricao {
-    display: flex;
+    margin-bottom: 32px;
 }
 
 
 section h2 {
     padding: 16px;
     font-size: 24px;
+}
+
+.casas-venda {
+    display: grid;
+    grid-template-columns: repeat(3, 32.6%);
+    column-gap: 1%;
+    row-gap: 5%;
 }
