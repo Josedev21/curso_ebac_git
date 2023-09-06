@@ -281,9 +281,18 @@ footer img {
         margin-right: 5px;
     }
 
-    .menu > li {
-    font-size: 14px;
-}
+    .menu  {
+        display: none;
+    }
+
+    .botao-menu button {
+        padding: 8px;
+        margin-top: 10px;
+        margin-left: 20px;
+        background-color: #c29b40;
+        color: #ccc;
+        border: none;
+    }
 
     form input {
         width: 80px;
@@ -361,6 +370,15 @@ footer img {
     footer {
         width: 865px;
     }
+    .botao-menu button {
+        display: none;
+    }
 
     
+}
+
+@media screen and (min-width: 1023px) {
+    .botao-menu button {
+        display: none;
+    }
 }
