@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,52 +9,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="logo">
-                <img src="./imagens.loja/logo-atlzd.png" alt="logo J Almeida"/>
+                <img src="./imagens.loja/logo-atlzd.png" alt="logo J Almeida" />
                 <h1>J Almeida</h1>
             </div>
-                <form>
-                    <input type="search" id="procura" placeholder="Procurar">
-                    <button type="button">Buscar</button>
-                </form>
+            <form>
+                <input type="search" id="procura" placeholder="Procurar">
+                <button type="button">Buscar</button>
+            </form>
         </div>
-            <div class="container">
-                <nav>
-                    <ul class="menu">
-                        <li>
-                            Vendas
-                            <ul class="submenu">
-                                <li>
-                                    <a href="#">Casas</a>
-                                </li>
-                                <li>
-                                    <a href="#">Apartamento</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            Aluguel
-                            <ul class="submenu">
-                                <li>
-                                    <a href="#">Casas</a>
-                                </li>
-                                <li>
-                                    <a href="#">Apartamento</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <div class="clear"></div>
-                </nav>
-            </div>
-        
+        <div class="container">
+            <nav>
+                <ul class="menu">
+                    <li>
+                        Vendas
+                        <ul class="submenu">
+                            <li>
+                                <a href="#cs-venda">Casas</a>
+                            </li>
+                            <li>
+                                <a href="#cs-venda">Apartamento</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Aluguel
+                        <ul class="submenu">
+                            <li>
+                                <a href="#app-alugar">Casas</a>
+                            </li>
+                            <li>
+                                <a href="#app-alugar">Apartamento</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </div>
+
     </header>
     <div id="carrousel-imagens">
         <img src="./imagens.loja/casa vania.jpg" alt="casa modulo 21">
@@ -62,94 +67,149 @@
     </div>
     <div class="container conteudo">
         <main>
-            <section class="Lançamento">
+            <section class="lançamento">
                 <h2>Lançamento</h2>
                 <article class="Venda1">
-                    <img src="https://via.placeholder.com/320x320" alt="casa alto padrão">
+                    <img src="./imagens.loja/casa nelson parte piscina.jpg" alt="casa alto padrão">
                     <div class="descricao">
                         <p>
-                            <h3><strong>Alto Padrão Riviera</strong></h3>
-                            R$6.000.000,00
-                            <strong>R$5.500.000,00</strong>
-                            <button type="button">Comprar</button>
+                        <h3><strong>Alto Padrão Riviera</strong></h3>
+                        <h5>R$6.000.000,00</h5>
+                        <h4><strong>R$5.500.000,00</strong></h4>
+                        <button type="button">Comprar</button>
                         </p>
                     </div>
                 </article>
             </section>
 
-            <section class="casas-venda">
+            <section id="cs-venda" class="casas-venda">
                 <h2>Casas a Venda</h2>
                 <div class="vendas">
                     <article class="Venda">
                         <a href="#">
-                            <img src="https://via.placeholder.com/320x320" alt="casa alto padrão"></a>
-                            <h3><strong>Alto Padrão Riviera</strong></h3>
-                            <strong>R$5.500.000,00</strong>
-                            <button type="button">Comprar</button>
+                            <img src="./imagens.loja/Imagem casa nelson.jpg" alt="casa alto padrão"></a>
+                        <h3><strong>Alto Padrão Riviera</strong></h3>
+                        <h4><strong>R$5.500.000,00</strong></h4>
+                        <button type="button">Comprar</button>
                     </article>
                     <article class="Venda">
                         <a href="#">
-                            <img src="https://via.placeholder.com/320x320" alt="casa alto padrão"></a>
-                            <h3><strong>Alto Padrão Riviera</strong></h3>
-                            <strong>R$5.500.000,00</strong>
-                            <button type="button">Comprar</button>
+                            <img src="./imagens.loja/casa vania.jpg" alt="casa alto padrão"></a>
+                        <h3><strong>Alto Padrão Riviera</strong></h3>
+                        <h4><strong>R$5.500.000,00</strong></h4>
+                        <button type="button">Comprar</button>
                     </article>
                     <article class="Venda">
                         <a href="#">
-                            <img src="https://via.placeholder.com/320x320" alt="casa alto padrão"></a>
-                            <h3><strong>Alto Padrão Riviera</strong></h3>
-                            <strong>R$5.500.000,00</strong>
-                            <button type="button">Comprar</button>
+                            <img src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_640.jpg" alt="casa alto padrão"></a>
+                        <h3><strong>Alto Padrão Riviera</strong></h3>
+                        <h4><strong>R$5.500.000,00</strong></h4>
+                        <button type="button">Comprar</button>
                     </article>
                     <article class="Venda">
                         <a href="#">
-                            <img src="https://via.placeholder.com/320x320" alt="casa alto padrão"></a>
-                            <h3><strong>Alto Padrão Riviera</strong></h3>
-                            <strong>R$5.500.000,00</strong>
-                            <button type="button">Comprar</button>
+                            <img src="https://media.istockphoto.com/id/506903162/pt/foto/luxo-villa-com-piscina.jpg?s=612x612&w=0&k=20&c=I1820L9snfNiL5bO4-pnaNMlZg3jyaXLo_6BB9-gREM=" alt="casa alto padrão"></a>
+                        <h3><strong>Alto Padrão Riviera</strong></h3>
+                        <h4><strong>R$5.500.000,00</strong></h4>
+                        <button type="button">Comprar</button>
+                    </article>
+                </div>
+
+            </section>
+
+            <section id="app-alugar">
+                <h2>Apartamentos Aluguel</h2>
+                <div class="vendas">
+                    <article class="Venda">
+                        <a href="#">
+                            <img src="./imagens.loja/apartamentoroseli.jpg" alt="casa alto padrão"></a>
+                        <h3><strong>Alto Padrão Riviera</strong></h3>
+                        <h4><strong>R$5.500.000,00</strong></h4>
+                        <button type="button">Alugar</button>
+                    </article>
+                    <article class="Venda">
+                        <a href="#">
+                            <img src="https://media.istockphoto.com/id/1266155645/pt/foto/luxurious-master-bedroom-interior.jpg?s=612x612&w=0&k=20&c=kJbw4tgQYYjQasp5BkMKIIA9CaOa1K7xqwqBactMIjw=" alt="casa alto padrão"></a>
+                        <h3><strong>Alto Padrão Riviera</strong></h3>
+                        <h4><strong>R$5.500.000,00</strong></h4>
+                        <button type="button">Alugar</button>
+                    </article>
+                    <article class="Venda">
+                        <a href="#">
+                            <img src="https://media.istockphoto.com/id/1191719642/pt/foto/3d-render-modern-living-room-interior.jpg?s=612x612&w=0&k=20&c=5M8DCPANNTqXj-eizUgQ_DdPRuI8GrloDXmgz633qkQ=" alt="casa alto padrão"></a>
+                        <h3><strong>Alto Padrão Riviera</strong></h3>
+                        <h4><strong>R$5.500.000,00</strong></h4>
+                        <button type="button">Alugar</button>
+                    </article>
+                    <article class="Venda">
+                        <a href="#">
+                            <img src="https://media.istockphoto.com/id/1333804787/pt/foto/modern-white-interior-design-with-fireplace-and-beautiful-backyard-view.jpg?s=612x612&w=0&k=20&c=d0fzDYUawPi8LdW7XLPZm1VLWRVLhy7isPhooVrDTU4=" alt="casa alto padrão"></a>
+                        <h3><strong>Alto Padrão Riviera</strong></h3>
+                        <h4><strong>R$5.500.000,00</strong></h4>
+                        <button type="button">Alugar</button>
                     </article>
                 </div>
                 
             </section>
+
         </main>
 
         <aside>
+
             <section>
-                <h2>Promoção</h2>
+                <h1>Promoções</h1>
                 <article class="Venda">
                     <a href="#">
-                        <img src="https://via.placeholder.com/320x320" alt="casa alto padrão"></a>
-                        <h3><strong>Alto Padrão Riviera</strong></h3>
-                        <p>R$6.000.000,00</p>                        
-                        <strong>R$5.500.000,00</strong>
-                        <button type="button">Comprar</button>
-                </article><article class="Venda">
-                    <a href="#">
-                        <img src="https://via.placeholder.com/320x320" alt="casa alto padrão"></a>
-                        <h3><strong>Alto Padrão Riviera</strong></h3>
-                        <p>R$6.000.000,00</p>
-                        <strong>R$5.500.000,00</strong>
-                        <button type="button">Comprar</button>
+                        <img src="https://media.istockphoto.com/id/1413054619/pt/foto/3d-rendering-of-modern-house-with-wood-plank-facade-by-the-sea-or-ocean-on-sunset.jpg?s=612x612&w=0&k=20&c=rihD8o1UxS4h8vRs55fUiXs6jwYqURRWUiM3EmecbmM=" alt="casa alto padrão"></a>
+                    <h3><strong>Alto Padrão Riviera</strong></h3>
+                    <p>R$6.000.000,00</p>
+                    <h4><strong>R$5.500.000,00</strong></h4>
+                    <button type="button">Comprar</button>
                 </article>
                 <article class="Venda">
                     <a href="#">
-                        <img src="https://via.placeholder.com/320x320" alt="casa alto padrão"></a>
-                        <h3><strong>Alto Padrão Riviera</strong></h3> 
-                        <p>R$6.000.000,00</p>
-                        <strong>R$5.500.000,00</strong>
-                        <button type="button">Comprar</button>
+                        <img src="https://media.istockphoto.com/id/1282518866/pt/foto/3d-rendering-of-modern-house-in-luxurious-style.jpg?s=612x612&w=0&k=20&c=5bUqOssEFvhgFXx68Am4_xuW0KHS8FL7ahEyhNoLl3Y=" alt="casa alto padrão"></a>
+                    <h3><strong>Alto Padrão Riviera</strong></h3>
+                    <p>R$6.000.000,00</p>
+                    <h4><strong>R$5.500.000,00</strong></h4>
+                    <button type="button">Comprar</button>
                 </article>
                 <article class="Venda">
                     <a href="#">
-                        <img src="https://via.placeholder.com/320x320" alt="casa alto padrão"></a>
-                        <h3><strong>Alto Padrão Riviera</strong></h3>
-                        <p>R$6.000.000,00</p>
-                        <strong>R$5.500.000,00</strong>
-                        <button type="button">Comprar</button>
+                        <img src="https://media.istockphoto.com/id/942406284/pt/foto/3d-rendering-of-modern-cozy-house-by-the-river-at-night.jpg?s=612x612&w=0&k=20&c=z7QvX_KSyayCs0cmqRl_Z6hRkXudg8XYdOBQNBvIknE=" alt="casa alto padrão"></a>
+                    <h3><strong>Alto Padrão Riviera</strong></h3>
+                    <p>R$6.000.000,00</p>
+                    <h4><strong>R$5.500.000,00</strong></h4>
+                    <button type="button">Comprar</button>
                 </article>
+                <article class="Venda">
+                    <a href="#">
+                        <img src="https://media.istockphoto.com/id/1219368329/pt/foto/3d-rendering-of-modern-house-with-wood-plank-facade-in-night.jpg?s=612x612&w=0&k=20&c=BOsIWxPaofmHLQBvCMCzG0PomxQ5-E1lm1xmrGToLmk=" alt="casa alto padrão"></a>
+                    <h3><strong>Alto Padrão Riviera</strong></h3>
+                    <p>R$6.000.000,00</p>
+                    <h4><strong>R$5.500.000,00</strong></h4>
+                    <button type="button">Comprar</button>
+                </article>
+
             </section>
+
         </aside>
+
     </div>
+    <footer>
+        <p>&copy; 2023 J Almeida - Todos os Direitos Reservados</p>
+        <div class="final">
+            <a href="#">
+                <img src="https://th.bing.com/th/id/OIP.mdNMeNAxQL1gWv0U3KAe1gHaHZ?w=200&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="logo instagram">
+            </a>
+            <a href="#">
+                <img src="https://th.bing.com/th/id/OIP.0NJcpPdyfUeHe_lBKHDUkwHaHa?w=209&h=209&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="logo facebook">
+            </a>
+            <a href="#">
+                <img src="https://th.bing.com/th/id/OIP.qeBL7LoMSOxJnY_hd_ZOZgHaHc?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="logo whatsapp">
+            </a>
+        </div>
+    </footer>
 
 
 
@@ -158,12 +218,13 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             $('#carrousel-imagens').slick({
                 autoplay: true,
             });
         })
     </script>
-    
+
 </body>
+
 </html>
