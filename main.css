@@ -7,7 +7,7 @@
 }
 
 .container {
-    max-width: 1024px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
@@ -118,6 +118,30 @@ body {
     grid-template-columns: 70% 30%;
 }
 
+.sobre-loja {
+    align-items: center;
+    margin-top: 40px;
+    display: flex;
+    color: #fff;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.sobre-loja h2 {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.sobre-loja img {
+    margin-right: 20px;
+    height: 400px;
+    margin-top: 40px;
+    
+}
+
 .venda img {
     max-width: 100%;
 }
@@ -171,7 +195,7 @@ section h2 {
 .vendas {
     display: grid;
     max-width: 100%;
-    grid-template-columns: repeat(3, 32.6%);
+    grid-template-columns: repeat(4, 25%);
     gap: 15px;
     grid-auto-flow: row;
 }
@@ -190,14 +214,6 @@ section h2 {
     font-size: 20px;
 }
 
-aside {
-    margin-left: 80px;
-    background-color: #723172;
-}
-
-aside .Venda {
-    margin-bottom: 25px;
-}
 
 section {
     margin-bottom: 40px;
@@ -222,10 +238,6 @@ section {
 }
 
 
-aside .Venda {
-    border-bottom: 4px solid #fff;
-}
-
 .casas-venda {
     border-bottom: 4px solid #c29b40;
 }
@@ -234,11 +246,6 @@ aside .Venda {
     margin-bottom: 15px;
 }
 
-aside p {
-    margin-left: 10px;
-    text-decoration: line-through;
-    color: red;
-}
 
 .conteudo h3 {
     color: #fff;
@@ -281,17 +288,30 @@ footer img {
         margin-right: 5px;
     }
 
+    header img {
+        height: 70px;
+        margin-top: 10px;
+    }
+
     .menu  {
         display: none;
     }
 
+    .menu li {
+        font-size: 15px;
+    }
+
     .botao-menu button {
-        padding: 8px;
+        padding: 6px;
         margin-top: 10px;
         margin-left: 20px;
         background-color: #c29b40;
         color: #ccc;
         border: none;
+    }
+
+    form {
+        margin-right: 20px;
     }
 
     form input {
@@ -302,14 +322,32 @@ footer img {
 
     form button {
         width: 60px;
-        margin-right: 5px;
+        margin-right: 10px;
         padding: 3px;
     }
 
     #carrousel-imagens img {
         height: 300px;
     }
+
+    .sobre-loja {
+        display: block;
+    }
+
+    .sobre-loja .sobre {
+        margin: 2px;
+        margin-left: 8px;
+    }
+
+    .sobre-loja img {
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+
     .conteudo {
+        max-width: 767px;
+        width: 100%;
         display: block;
         align-items: center;
         margin-left: 0;
