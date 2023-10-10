@@ -5,47 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple</title>
     <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_css_bootstrap.min.css">
-    
-    <style>
-        header {
-            background-color: #a9a9a9;
-            position: sticky;
-            top: 0;
-            left: 0;
-        }
-
-        header img {
-            height: 65px;
-            margin-right: 5px;
-            margin-bottom: 2px;
-        }
-
-        .logo-apple {
-            display: flex;
-            align-items: center;
-        }
-
-        .navbar-nav .nav-link.active {
-            background-color: #808080;
-        } 
-
-        .nav-link {
-            text-align: center;
-            font-weight: bold;
-        }
-
-        section {
-            height: 100vh;
-            background-color: #ccc;
-            padding-top: 20px;
-        }
-
-        .carousel-slide {
-            background-color: #a9a9a9;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header id="cabecalho">
@@ -53,7 +13,7 @@
             <div class="container">
                 <div class="logo-apple">
                     <img src="./imagens/apple-logo-1-1-removebg.png" alt="logo apple">
-                    <h1>Apple</h1>
+                    <h1>IWorld Store</h1>
                 </div>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                     <span class="navbar-toggler-icon"></span>
@@ -82,13 +42,13 @@
             <div id="carousel-apple" class="carousel slide">
                 <div class="carousel-inner" data-bs-ride="carousel">
                     <div data-bs-interval="4000" class="carousel-item active">
-                        <img src="https://m.media-amazon.com/images/G/32/apple/NPI/Set_22/River_Content/iPhone_14_Pro/Brazil_iPhone_14_Pro_Marketing_Page-DSK_01._CB610845259_.jpg" alt="">
+                        <img src="https://bgr.com/wp-content/uploads/2020/10/apple-airpods-pro.jpg?quality=70&strip=all" alt="">
                     </div>
                     <div data-bs-interval="4000" class="carousel-item">
-                        <img src="https://m.media-amazon.com/images/G/32/apple/NPI/Mar_22/iPhone_13_Pro/Desktop/br_2022_iPhone13Pro_desktop_01._CB625709617_.jpg" alt="">
+                        <img src="https://images.frandroid.com/wp-content/uploads/2020/11/vpavic_4291_20201113_0366-0.jpg" alt="">
                     </div>
                     <div data-bs-interval="4000" class="carousel-item">
-                        <img src="https://lojaibyte.vteximg.com.br/arquivos/ids/209083/%20iphone-12-pro-lp02.jpg%20?v=637408661727030000" alt="">
+                        <img src="https://www.siliconvalley.com/wp-content/uploads/2020/10/hypatia-h_993a674c8c8d69b5a67957aab7177efa-h_a20ab1e87bdd29b9aa731f88af26328e-1.jpg?w=1600" alt="">
                     </div>
                     <div data-bs-interval="4000" class="carousel-item">
                         <img src="https://bootstrap-ebac-sigma.vercel.app/images/item1.jfif" alt="">
@@ -100,22 +60,112 @@
                 <button data-bs-target="#carousel-apple" data-bs-slide="next" class="carousel-control-next" type="button">
                     <span class="carousel-control-next-icon"></span>
                 </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-apple" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-apple" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-apple" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel-apple" data-bs-slide-to="3"></button>
+                </div>
             </div>
         </div>
 
-    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
-        <section id="inicio">
-            <h1>Inicio</h1>
-        </section>
-        <section id="sobre-a-loja">
-            <h1>Sobre a loja</h1>
-        </section>
-        <section id="produtos">
-            <h1>Produtos</h1>
-        </section>
-        <section id="contato">
-            <h1>Contatos</h1>
-        </section>
+    <div class="container">
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+            <section id="inicio" class="inicio-section">
+                <h1>Bem Vindo Ao Mundo Apple, Com Os Aparelhos De Maior Tecnologia E Qualidade Do Mundo.</h1>
+            </section>
+
+            <section id="sobre-a-loja">
+                <h1><strong>Sobre Nós</strong></h1>
+                <div id="sobre-loja">
+                    <h2>A "iWorld" é uma loja de produtos Apple que oferece uma ampla variedade de dispositivos e acessórios da marca. Ela é conhecida por ser um local onde os entusiastas da Apple podem encontrar iPhones, iPads, MacBooks, iMacs, Apple Watches e outros produtos da empresa. Além disso, a loja oferece acessórios e serviços relacionados, como capas, fones de ouvido, carregadores e assistência técnica especializada. A "iWorld" é um destino popular para clientes que desejam experimentar e adquirir os produtos da Apple, bem como obter suporte e informações sobre as últimas novidades tecnológicas da empresa.</h2>
+                    <img src="https://veja.abril.com.br/wp-content/uploads/2020/06/Apple-palo-alto.jpg" alt="">
+                </div>
+            </section>
+
+            <section id="produtos">
+                <h1><strong>IPhone</strong></h1>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3><strong>IPhone 14 Pro</strong></h3>
+                            </div>
+                            <img src="https://www.bing.com/th?id=OPHS.pHFqJ68kk58TsQ474C474&o=5&pid=21.1&w=142&h=142&qlt=100&dpr=1,3" alt="IPhone">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Desempenho Inigualável: Equipado com o chip A16 Bionic, o iPhone 14 Pro oferece um desempenho incomparável, permitindo que você execute qualquer tarefa com rapidez e eficiência.
+                                </p>
+                                <h5>R$ 6.999,99</h5>
+                                <h4>R$ 5.999,00</h4>
+                            </div>
+                            <button class="btn btn-success" type="button"><h4>Comprar</h4></button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3><strong>IPhone 13</strong></h3>
+                            </div>
+                            <img src="https://www.bing.com/th?id=OPHS.UvUiiBiT7Qi8iw474C474&o=5&pid=21.1&w=142&h=142&qlt=100&dpr=1,3" alt="IPhone">
+                            <div class="card-body">
+                                <p>
+                                    Desempenho de Alto Nível: Alimentado pelo chip A15 Bionic, o iPhone 13 oferece um desempenho ágil e eficiente, garantindo que você possa executar aplicativos e tarefas complexas com facilidade.
+                                </p>
+                                <h5>R$ 6.999,99</h5>
+                                <h4>R$ 5.999,00</h4>
+                            </div>
+                            <button class="btn btn-success" type="button"><h4>Comprar</h4></button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3><strong>IPhone 14 Pro Max</strong></h3>
+                            </div>
+                            <img src="https://www.bing.com/th?id=OIP.YfnLRVia6vNIMmvyjKcnCAHaHa&w=185&h=185&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="IPhone">
+                            <div class="card-body">
+                                <p>
+                                    Desempenho Inigualável: Com o chip A17 Bionic, o iPhone 14 Pro Max supera todos os desafios, oferecendo um desempenho ultrarrápido e eficiente para suas tarefas mais exigentes.
+                                </p>
+                                <h5>R$ 6.999,99</h5>
+                                <h4>R$ 5.999,00</h4>
+                            </div>
+                            <button class="btn btn-success" type="button"><h4>Comprar</h4></button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3><strong>IPhone 12</strong></h3>
+                            </div>
+                            <img src="https://www.bing.com/th?id=OPHS.T7JZpxG2cxGMog474C474&o=5&pid=21.1&w=130&h=130&qlt=100&dpr=1,3&bw=6&bc=FFFFFF" alt="IPhone">
+                            <div class="card-body">
+                                <p>
+                                    Desempenho Poderoso: Equipado com o chip A14 Bionic, o iPhone 12 oferece um desempenho excepcionalmente rápido e eficiente, garantindo uma execução suave de aplicativos e tarefas.
+                                </p>
+                                <h5>R$ 6.999,99</h5>
+                                <h4>R$ 5.999,00</h4>
+                            </div>
+                            <button class="btn btn-success" type="button"><h4>Comprar</h4></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contato">
+                <h1>Macbook</h1>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3><strong>Macbook</strong></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
     
 
