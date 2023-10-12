@@ -69,15 +69,38 @@ section {
     color: #0b9f18;
 }
 
+.card-body h3 {
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
 .card {
     background-color: #fff;
     margin-top: 20px;
 }
 
-.card-header {
-    background-color: #fff;
+.card-header h3 {
+    padding-top: 8px;
 }
 
-#contato {
-    padding: 300px;
+.card-header {
+    background-color: #fff;
+    border: none;
+    text-align: center;
+}
+
+#produtos1 {
+    margin-top: 150vh;
+}
+
+#produtos2 {
+    margin-top: 150vh;
+}
+
+#produtos3 {
+    margin-top: 150vh;
+}
+
+footer {
+    margin-top: 150vh;
 }
