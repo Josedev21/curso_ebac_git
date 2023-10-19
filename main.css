@@ -77,6 +77,8 @@ section {
 .card {
     background-color: #fff;
     margin-top: 20px;
+    max-height: 100%;
+    
 }
 
 .card-header h3 {
@@ -102,5 +104,149 @@ section {
 }
 
 footer {
+    margin-top: 50vh;
+}
+
+#contato {
     margin-top: 150vh;
+}
+
+form input, label {
+    display: block;
+    margin-bottom: 15px;
+    width: 60%;
+    padding: 8px;
+}
+
+#mensagem {
+    resize: none;
+    height: 100px;
+    width: 60%;
+}
+
+#contato button {
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    header img {
+        height: 30px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    .carousel-item img {
+        align-items: center;
+        height: 50vh;
+    }
+
+    body, header {
+        overflow-x: hidden;
+    }
+
+    .inicio-section {
+        margin-top: 200px;
+        width: 100%;
+    }
+
+    #sobre-loja {
+        display: block;
+    }
+
+    #sobre-loja img {
+        max-width: 100%;
+    }
+
+    #produtos {
+        margin-top: 600px;
+    }
+
+    #produtos1 {
+        margin-top: 280vh;
+    }
+
+    #produtos2 {
+        margin-top: 280vh;
+    }
+
+    #produtos3 {
+        margin-top: 280vh;
+    }
+
+    #contato {
+        margin-top: 280vh;
+    }
+
+    form input, label {
+        width: 100%;
+    }
+
+    #mensagem {
+        width: 100%;
+    }
+
+    #contato button {
+        width: 50%;
+        margin-left: 1%;
+        margin-top: 25px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .carousel-item img {
+        align-items: center;
+        height: 80vh;
+    }
+
+    #sobre-loja {
+        display: block;
+    }
+
+    #sobre-loja img {
+        width: 100%;
+    }
+
+    #produtos {
+        margin-top: 200px;
+    }
+
+    #produtos1 {
+        margin-top: 70vh;
+    }
+
+    #produtos2 {
+        margin-top: 70vh;
+    }
+
+    #produtos3 {
+        margin-top: 70vh;
+    }
+
+    #contato {
+        margin-top: 90vh;
+    }
+
+    form input, label {
+        width: 100%;
+    }
+
+    #mensagem {
+        width: 100%;
+    }
+
+    #contato button {
+        width: 50%;
+        margin-left: 1%;
+        margin-top: 25px;
+    }
 }
