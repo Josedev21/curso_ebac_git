@@ -1,0 +1,35 @@
+body {
+    font-family: Roboto, sans-serif
+}
+
+.navbar {
+    background-color: #50244e;
+}
+
+.nav .nav-link.active {
+    background-color: #fff;
+    color: #50244e;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+
+#sobre-restaurante {
+    background-color: #b777b6;
+}
+
+.text-colored {
+    color: #50244e;
+}
