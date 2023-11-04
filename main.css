@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.brand-style {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+.colored-brand {
+    color: #723172;
+}
+
+#cabecalho .nav .nav-link {
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active {
+    color: #fff;
+    background-color: #723172;
+}
+
+#carousel .carousel-item img {
+    height: 100vh;
+}
+
+#sobre-loja {
+    background-color: #000;
+}
+
+.textp-colored {
+    color: #fff;
+}
+
+#roupas {
+    background-color: #723172;
+}
+
+.brand-catalogo {
+    color: #daa520;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-roupas .nav-link.active {
+    background-color: #fff;
+    color: #723172;
+}
+
+.nav-roupas .nav-link.active:hover {
+    color: #723172;
+}
+
+.nav-roupas .nav-link:hover {
+    color: #fff;
+}
+
+.button-pdrt {
+    background-color: #008000;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.preço-produto {
+    color: #008000;
+}
+
+#calcados {
+    background-color: #000;
+}
+
+#calcados .nav-calcados .nav-link.active {
+    color: #fff;
+    background-color: #723172;
+}
+
+.nav-calcados .nav-link:hover {
+    color: #fff;
+}
+
+form input {
+    border-color: #723172;
+}
+
+.social-link li {
+    display: inline;
+    list-style: none;
+}
+
+.social-link a {
+    text-decoration: none;
+}
+
+#contato {
+    height: 100vh;
+}
+
+#rodape {
+    background-color: #723172;
+    color: #fff;
+}
+
+
