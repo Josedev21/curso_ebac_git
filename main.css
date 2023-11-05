@@ -105,4 +105,37 @@ form input {
     color: #fff;
 }
 
+.color-icon {
+    color: #fff;
+    background-color: #723172;
+}
+
+
+@media (max-width:767px) {
+    #carousel .carousel-item img {
+        height: 50vh;
+    }
+    #sobre-loja img {
+        height: 30vh;
+    }
+    #sobre-loja h2 {
+        margin-top: 30px;
+    }
+    #modelos h2 {
+        margin-bottom: 15px;
+    }
+
+    #modelos {
+        margin-left: 8%;
+        margin-right: 10%;
+    }
+    #contato h3 {
+        margin-top: 50px;
+    }
+
+    header nav {
+        margin-top: 30px;
+    }
+}
+
 
