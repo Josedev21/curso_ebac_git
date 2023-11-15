@@ -85,7 +85,28 @@ section {
 }
 
 @media screen and (max-width:variaveis.$mobile) {
-    .products {
+    header {
+        padding-right: 7px;
+        padding-left: 10px;
+    }
+
+    section .products{
         display: block;
+    }
+
+    .product-button {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width:variaveis.$tablet) {
+    header {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    section .products {
+        grid-template-columns: repeat(2, 48%);
+        margin-left: 15px;
     }
 }
