@@ -1,6 +1,13 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'))
 const sourceMaps = require('gulp-sourcemaps');
+const oglify = require('gulp-uglify');
+
+function ComprimeJavaScript() {
+    return gulp.src('./source/scripts/*.js')
+        .pipe(oglify())
+        .pipe(gulp.dest('./build/scripts'))
+}
 
 function CompilaSass() {
     return gulp.src('./source/styles/main.scss')
@@ -41,3 +48,4 @@ exports.sass = CompilaSass;
 exports.watch = function() {
     gulp.watch('./source/styles/*.scss', {ignoreInitial: false }, gulp.series(CompilaSass));
 }
+exports.javascript = ComprimeJavaScript;
