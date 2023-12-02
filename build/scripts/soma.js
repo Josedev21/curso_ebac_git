@@ -1,0 +1,1 @@
+function ಠ_ಠ270(o,n){return o+n}function ಠ_ಠ271(o,n){return o/n}function ಠ_ಠ272(o,n){return o*n}function ಠ_ಠ273(o,n){return o-n}module.ಠ_ಠ274=ಠ_ಠ270,console.log(ಠ_ಠ271(100,10)),console.log(ಠ_ಠ272(30,40)),console.log(ಠ_ಠ273(2e3,1e3));
