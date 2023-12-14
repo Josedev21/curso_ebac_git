@@ -1,0 +1,101 @@
+@import "mapas.less";
+
+@Breakpointmobile: ~ "(max-width:767px)";
+@Breakpointtablet: ~ "(min-width:767px) and (max-width:1023px)";
+
+.width-100() {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: beige;
+}
+.container {
+    max-width: 1024px;
+    .width-100();
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: #colors[backgroundcolorHeader];
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+        
+        .menu {
+            display: flex;
+            
+            li {
+                margin-left: 24px;
+                font-weight: bold;
+            }
+            
+            li a {
+                color: #colors[TextColor];
+                text-decoration: none;
+            }
+        }
+        @media @Breakpointmobile {
+            .products {
+                display: block;
+        
+                &-item {
+                    margin-bottom: 32px;
+                }
+            }
+        }
+    }
+}
+
+section {
+    padding: 56px 0;
+
+    .products {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 32.66%);
+        column-gap: 1%;
+        row-gap: 4%;
+        .width-100();
+
+        &-item{
+            img {
+                border-radius: 16px;
+            }  
+        }
+
+        &-button {
+            display: block;
+            background-color: #colors[CorPrincipalButton];
+            color: #colors[CorTextBButtonn];
+            text-align: center;
+            padding: 8px 0;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 8px;
+
+            &:hover {
+                background-color: #colors[CorSecundariaButton];
+            }
+        }
+    }
+}
+
+
