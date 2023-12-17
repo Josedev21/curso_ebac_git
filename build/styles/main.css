@@ -20,6 +20,9 @@ header {
   top: 0;
   left: 0;
 }
+header img {
+  border-radius: 25px;
+}
 header .container {
   display: flex;
   justify-content: space-between;
@@ -37,14 +40,6 @@ header .container .menu li a {
   color: #fff;
   text-decoration: none;
 }
-@media (max-width:767px) {
-  header .container .products {
-    display: block;
-  }
-  header .container .products-item {
-    margin-bottom: 32px;
-  }
-}
 section {
   padding: 56px 0;
 }
@@ -56,8 +51,15 @@ section .products {
   row-gap: 4%;
   width: 100%;
 }
+section .products-item {
+  display: block;
+  text-align: center;
+}
 section .products-item img {
   border-radius: 16px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 18px;
 }
 section .products-button {
   display: block;
@@ -71,4 +73,31 @@ section .products-button {
 }
 section .products-button:hover {
   background-color: #4cd137;
+}
+@media (max-width:767px) {
+  section .container h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+  section .products {
+    display: block;
+    text-align: center;
+  }
+  section .products-item {
+    margin-bottom: 32px;
+  }
+  section .products img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+}
+@media (min-width:767px) and (max-width:1023px) {
+  section .container {
+    max-width: 80%;
+  }
+  section .products {
+    grid-template-columns: repeat(2, 48.5%);
+    column-gap: 3%;
+  }
 }

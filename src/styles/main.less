@@ -33,6 +33,10 @@ header {
     top: 0;
     left: 0;
 
+    img {
+        border-radius: 25px;
+    }
+
     .container {
         display: flex;
         justify-content: space-between;
@@ -52,21 +56,12 @@ header {
                 text-decoration: none;
             }
         }
-        @media @Breakpointmobile {
-            .products {
-                display: block;
-        
-                &-item {
-                    margin-bottom: 32px;
-                }
-            }
-        }
     }
 }
 
 section {
     padding: 56px 0;
-
+    
     .products {
         margin-top: 40px;
         display: grid;
@@ -75,12 +70,19 @@ section {
         row-gap: 4%;
         .width-100();
 
+        
         &-item{
+            display: block;
+            text-align: center;
+
             img {
                 border-radius: 16px;
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 18px;
             }  
         }
-
+        
         &-button {
             display: block;
             background-color: #colors[CorPrincipalButton];
@@ -90,10 +92,45 @@ section {
             border-radius: 8px;
             text-decoration: none;
             margin-top: 8px;
-
+            
             &:hover {
                 background-color: #colors[CorSecundariaButton];
             }
+        }
+    }
+
+    @media @Breakpointmobile {
+
+        .container{
+            h2 {
+                text-align: center;
+                font-size: 32px;
+            }
+        }
+
+        .products {
+            display: block;
+            text-align: center;
+    
+            &-item {
+                margin-bottom: 32px;
+            }
+
+            img {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    @media @Breakpointtablet {
+        .container {
+            max-width: 80%;
+        }
+        .products {
+            grid-template-columns: repeat(2, 48.5%);
+            column-gap: 3%;
         }
     }
 }
