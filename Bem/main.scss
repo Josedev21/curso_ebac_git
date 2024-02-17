@@ -1,12 +1,5 @@
-.produtos {
-    max-width: 640px;
-    width: 100%;
-    margin: 56px auto;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-column-gap: 1%;
+    .produto {
 
-    &.produto {
         &__imagem {
             width: 100%;
         }
@@ -26,4 +19,3 @@
             background-color: #ffff42;
         }
     }
-}
